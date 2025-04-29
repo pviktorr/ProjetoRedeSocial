@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar-se</title>
+  <script src="cadastro.js"defer></script>
+  <link rel="stylesheet" href="cadastro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+ 
+</head>
+<body>
+  <div class="container">
+    <h2>Registrar-se</h2>
+    
+    <div class="input-group">
+      <input type="text" placeholder="Nome de usuário" id="username" />
+      <i class="fas fa-user"></i>
+    </div>
+
+    <div class="input-group">
+      <input type="email" placeholder="Email" id="email" />
+      <i class="fas fa-envelope"></i>
+    </div>
+
+    <div class="input-group">
+      <input type="password" placeholder="Senha" id="password" />
+      <i class="fas fa-lock"></i>
+    </div>
+
+    <div class="input-group">
+      <input type="password" placeholder="Confirmar senha" id="confirm-password" />
+      <i class="fas fa-lock"></i>
+    </div>
+
+    <button onclick="register()">Registrar</button>
+
+    <div class="footer">
+      Já tem uma conta? <a href="/login/login.html">Conecte-se</a>
+    </div>
+  </div>
+
+  
+</body>
+</html>

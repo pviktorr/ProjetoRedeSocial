@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+
+<body>
+    <!-- Tela de Login -->
+    <div class="container" id="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+
+            <!-- Campo de e-mail -->
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email">
+                <span class="icon">👤</span>
+            </div>
+
+            <!-- Campo de senha com botão para mostrar/ocultar -->
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password">
+                <span class="icon toggle-password" onclick="togglePassword()">🔒</span>
+            </div>
+
+            <!-- Link para recuperar a senha -->
+            <div class="forgot-password">
+                <a href="/recSenha/index.html"> Forgot password?</a>
+            </div>
+
+            <!-- Botão de login conectado à função -->
+            <button class="login-btn" onclick="login()">Login</button>
+
+            <!-- Área para exibir mensagens -->
+            <p id="mensagem"></p>
+
+            <!-- Link para registro -->
+            <p class="register">Don't have an account? <a href="/cadastro/cadastro.html">Register</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+LOGIN HTML
