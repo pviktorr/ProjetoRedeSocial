@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: url('/ProjetoBlackBird/img/imagemPrincipal.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-container {
+    background: rgba(66, 66, 66, 0.58);
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+  }
+  
+  .profile-card {
+    text-align: center;
+    color: white;
+  }
+  
+  .profile-picture {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .profile-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .edit-icon {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    background: #fff;
+    color: black;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .input-group {
+    text-align: left;
+    margin-top: 15px;
+  }
+  
+  .input-group label {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-field {
+    background: #e0e0e0;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    margin-top: 4px;
+  }
+  
+  .input-field input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .input-field i {
+    color: #555;
+  }
+  
+  .change-btn {
+    margin-top: 25px;
+    background: #5e5e5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .change-btn:hover {
+    background: #444;
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ddd;
+  }
+  
+  .footer-text a {
+    color: #fff;
+    text-decoration: underline;
+  }
